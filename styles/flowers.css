@@ -11,6 +11,7 @@ p{
     color: rgba(39, 39, 39, 0.60);    
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 30px;
 }
 .primary-btn{
     border: 0;
@@ -18,7 +19,16 @@ p{
     padding: 20px 40px;
     border-radius: 8px;
     background: #E55473;
-    }
+}
+h4{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+
+}
+
+
 
 /* Header styles */
 header{
@@ -36,9 +46,29 @@ header{
 }
 .greetings p{
     margin-bottom: 30px;
+    text-align: center;
 }
 .header-image img{
     width: 100%;
     height: 100%;
     
+}
+
+
+/* Hot Deal Section */
+.hot-deal{
+    padding: 100px 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E554730D;
+}
+.hot-deal p{
+    width: 620px;
+}
+.hot-deal-description{
+    margin-right: 100px;
+}
+.hot-deal-button{
+    text-align: center;
 }
