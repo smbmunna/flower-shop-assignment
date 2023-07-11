@@ -168,6 +168,21 @@ h4{
     bottom: 0;
 }
 
+/* Service section */
+.service{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-between;
+    margin:0 240px;
+    padding: 30px 100px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+.service-content{
+    padding: 30px;
+}
+
 /* Hot Deal Section */
 .hot-deal{
     padding: 100px 400px;
