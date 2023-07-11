@@ -92,42 +92,72 @@ h4{
     align-items: center;
     
 }
+
+
+
+
 /* Featured Flowers */
 .featured-flowers{
     margin: 180px 240px;
     text-align: center;
 }
-.featured-flowers-texts p{
-    padding:0 180px;
+.box-container{
+    display: flex;    
+    justify-content: space-around;
 }
-.featured-flowers-image-container{
-    display: flex;
-}
-.featured-flowers-image-1{
+.box{
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    height: 450px;
-    width: 330px;
-    margin-right:15px;
     
+       
+}
+#box1{
+    background: rgba(167, 33, 98, 0.15);    
+    padding: 30px 15px 0 15px;   
+
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+#box1 img{
+    
+    height: 75%;       
+    width: 70%;  
+    
+    position: absolute;
+    left: 0;
+    bottom: 0;
     
 }
-.featured-flowers-image-2{
-    border-radius: 300px 300px 0px 0px;
+#box2{
     background: rgba(5, 151, 160, 0.15);
-    height: 450px;
-    width: 330px;
-    margin-right:15px;
+    
+    
+    position: relative;
+    height: 330px;
+    width: 300px;
 }
-.featured-flowers-image-3{
-    border-radius: 300px 300px 0px 0px;
+#box2 img{
+    height: 90%;       
+    margin-bottom: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#box3{
     background: rgba(71, 125, 17, 0.15);
-    height: 450px;
-    width: 330px;
-    margin-right:15px;
+
+    position: relative;
+    height: 330px;
+    width: 300px;
 }
-.featured-flowers-image-container img{
-    height: 75%;
+#box3 img{
+    height: 100%;       
+    width: 100%;
+    margin-bottom: 0;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 /* Hot Deal Section */
@@ -180,7 +210,7 @@ h4{
 .latest-deals-texts{
     padding: 120px 100px;
     text-align: center;
-    background-image: url("Flower\ Asset/Rectangle 9.png");
+    background-image: url("/Flower\ Asset/Rectangle 9.png");
     
 }
 .subscription{
