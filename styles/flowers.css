@@ -7,6 +7,9 @@
     font-family: 'Open Sans', sans-serif;
     
 }
+header{
+    background: rgba(229, 84, 115, 0.10);
+}
 p{
     color: rgba(39, 39, 39, 0.60);    
     font-size: 18px;
@@ -15,6 +18,8 @@ p{
 }
 .primary-btn{
     border: 0;
+    font-size: 20px;
+    font-weight: 700;
     color: #FFFFFF;
     padding: 20px 40px;
     border-radius: 8px;
@@ -31,11 +36,40 @@ h4{
     color: #E55473;
 }
 
+/* Nav bar Style */
+.main-nav{
+    display: flex;    
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    background-color: #E55473;
+}
+.main-nav h1{
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;    
+    color: white;
+    margin-left: 50px;
+}
+.main-nav ul{
+    display: flex;    
+}
+.main-nav ul li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 15px;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
 
 /* Header styles */
-header{
+.greetings{
     display:flex;
-    background: rgba(229, 84, 115, 0.10);
+    
     /* padding: 200px 240px; */
     padding: 50px 240px;
 }
@@ -48,7 +82,6 @@ header{
 }
 .greetings p{
     margin-bottom: 30px;
-    text-align: center;
 }
 .header-image img{
     width: 100%;
@@ -56,6 +89,43 @@ header{
     
 }
 
+/* Featured Flowers */
+.featured-flowers{
+    margin: 180px 240px;
+    text-align: center;
+}
+.featured-flowers-texts p{
+    padding:0 180px;
+}
+.featured-flowers-image-container{
+    display: flex;
+}
+.featured-flowers-image-1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 450px;
+    width: 330px;
+    margin-right:15px;
+    
+    
+}
+.featured-flowers-image-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    height: 450px;
+    width: 330px;
+    margin-right:15px;
+}
+.featured-flowers-image-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    height: 450px;
+    width: 330px;
+    margin-right:15px;
+}
+.featured-flowers-image-container img{
+    height: 75%;
+}
 
 /* Hot Deal Section */
 .hot-deal{
