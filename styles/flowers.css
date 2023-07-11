@@ -101,13 +101,21 @@ h4{
     margin: 180px 240px;
     text-align: center;
 }
+.featured-flowers-texts p{
+    text-align: center;
+    padding: 0 180px;
+}
 .box-container{
     display: flex;    
     justify-content: space-around;
 }
+.box-container a{
+    color: black;
+    font-weight: 700;
+}
 .box{
     border-radius: 300px 300px 0px 0px;
-    
+    margin-bottom: 15px;
        
 }
 #box1{
