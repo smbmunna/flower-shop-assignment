@@ -120,3 +120,23 @@ input[type="text"]{
     border-radius: 8px;
     border: 0;
 }
+
+
+/* Footer section */
+.footer-section{
+    background-color: #111010;
+    text-align: center;
+    padding: 130px ;
+}
+.footer-section h4{
+    color: #FFFFFF;
+}
+.footer-section p{
+    color: rgba(255, 255, 255, 0.90);
+    padding: 0 300px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.copyright{
+    color: #FFFFFF66;
+}
