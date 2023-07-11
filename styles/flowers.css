@@ -71,12 +71,12 @@ h4{
     display:flex;
     
     /* padding: 200px 240px; */
-    padding: 50px 240px;
+    padding: 50px 240px 0px 240px;
 }
 .greetings h2{
     color: #272727;
     font-family: Lato;
-    font-size: 80px;
+    font-size: 55px;
     font-weight: 800;
     margin-bottom: 30px;
 }
@@ -84,11 +84,14 @@ h4{
     margin-bottom: 30px;
 }
 .header-image img{
-    width: 100%;
+    width: 450px;
     height: 100%;
+    margin-bottom: -4px;
+}
+.greetings {
+    align-items: center;
     
 }
-
 /* Featured Flowers */
 .featured-flowers{
     margin: 180px 240px;
