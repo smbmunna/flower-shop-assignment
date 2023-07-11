@@ -97,3 +97,26 @@ header{
     display: flex;
     justify-content: space-around;
 }
+
+
+/* latest deals section */
+.latest-deals{
+    margin:130px 240px;    
+   
+}
+.latest-deals-texts{
+    padding: 120px 100px;
+    text-align: center;
+    background-image: url("/Flower\ Asset/Rectangle 9.png");
+    
+}
+.subscription{
+    text-align: center;
+}
+input[type="text"]{
+    padding-left: 20px;
+    width: 500px;
+    height: 60px;
+    border-radius: 8px;
+    border: 0;
+}
