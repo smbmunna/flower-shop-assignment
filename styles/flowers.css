@@ -11,7 +11,7 @@ p{
     color: rgba(39, 39, 39, 0.60);    
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 30px;    
 }
 .primary-btn{
     border: 0;
@@ -27,7 +27,9 @@ h4{
     margin-bottom: 25px;
 
 }
-
+.color-text{
+    color: #E55473;
+}
 
 
 /* Header styles */
@@ -71,4 +73,27 @@ header{
 }
 .hot-deal-button{
     text-align: center;
+}
+
+/* Instagram section */
+.instagram{    
+    margin: 130px 240px;
+}
+.instagram-texts{
+    text-align: center;
+}
+.instagram-texts p{
+    text-align: center;
+    padding: 0 200px;
+}
+
+.instagram-images img{
+    width: 248px;
+    padding: 8px;
+    
+}
+
+.instagram-images{
+    display: flex;
+    justify-content: space-around;
 }
